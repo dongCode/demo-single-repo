@@ -1,0 +1,12 @@
+lockfileVersion: 5.4
+
+importers:
+
+  apps/app1:
+    specifiers:
+      '@x/utils': workspace:*
+    dependencies:
+      '@x/utils': link:../../packages/utils
+
+  packages/utils:
+    specifiers: {}

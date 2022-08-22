@@ -1,9 +1,3 @@
-import { add } from '../../packages/utils/index.js'
+import { add } from '@x/utils'
 
-function createElement() {
-    const div = document.createElement('div')
-    div.innerHTML = `add计算结果${add(1,2)}`
-    document.body.appendChild(div)
-}
-
-createElement()
+console.log('add(1,2)', add(1,2))
